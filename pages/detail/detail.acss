@@ -1,0 +1,23 @@
+.detail {
+  width: 680rpx;
+  margin: 0 auto;
+}
+
+.detail__state {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.detail__call {
+  width: 40%;
+  margin: 0 auto;
+  color: #fff;
+  background: linear-gradient(135deg, #fa2c19 0%, #fa6419 100%);
+  border: 2rpx solid transparent;
+  border-radius: 30rpx;
+  height: 60rpx;
+  line-height: 52rpx;
+  box-sizing: border-box;
+  text-align: center;
+}

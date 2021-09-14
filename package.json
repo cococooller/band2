@@ -1,0 +1,27 @@
+{
+  "name": "band",
+  "version": "1.0.0",
+  "description": "手环",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vanishcode/band.git"
+  },
+  "keywords": [
+    "band"
+  ],
+  "author": "vanishcode@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanishcode/band/issues"
+  },
+  "homepage": "https://github.com/vanishcode/band#readme",
+  "dependencies": {
+    "@antv/my-f2": "^2.1.6",
+    "express": "^4.17.1",
+    "iview-aliapp": "^1.1.0",
+    "mini-ali-ui": "^1.4.0",
+    "nodemon": "^2.0.12",
+    "vant-aliapp": "^1.1.2"
+  }
+}

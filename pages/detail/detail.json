@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "学生详情",
+  "usingComponents": {
+    "basic-info-box": "../../components/BasicInfoBox/BasicInfoBox",
+    "state-box": "../../components/StateBox/StateBox",
+    "chart-box": "../../components/ChartBox/ChartBox"
+  }
+}

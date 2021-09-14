@@ -1,0 +1,22 @@
+<view class="detail">
+  <view class="detail__basic">
+    <basic-info-box />
+  </view>
+  
+  <view class="detail__state">
+    <state-box />
+    
+    <state-box />
+    
+    <state-box />
+    
+    <state-box />
+  </view>
+  
+  <view class="detail__chart">
+    <chart-box />
+  </view>
+  <view class="detail__call" onTap="call">
+    紧急呼叫
+  </view>
+</view>

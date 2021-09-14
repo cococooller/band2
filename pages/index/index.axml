@@ -1,0 +1,50 @@
+<view class="index">
+  <view class="index__list">
+    <view a:for="{{list}}" a:for-index="index" a:for-item="item" class="index__list__item" onTap="checkDetail(item.id)">
+      <!-- 动态src有不显示图片的bug，所以拆开 -->
+      <view a:if="{{ item.gender === '男' }}" class="index__list__item__avatar">
+        <image src="../../assets/index-avatar-boy.png" alt="avatar-boy" />
+      </view>
+      <view a:else class="index__list__item__avatar">
+        <image src="../../assets/index-avatar-girl.png" alt="avatar-girl" />
+      </view>
+      
+      <!-- 个人信息 -->
+      <view class="index__list__item__info">
+        <view class="index__list__item__info__basic">
+          <text class="index__list__item__info__basic__name">
+            {{ item.name }}
+          </text>
+          <text class="index__list__item__info__basic__others">
+            {{ item.gender }} |
+          </text>
+        </view>
+        
+        <view class="index__list__item__info__health">
+          <!-- 不用 for 理由同上 -->
+          
+          <!-- 心率 -->
+          <view class="index__list__item__info__health__item">
+            <image src="../../assets/index-info-heartRate.png" />
+            <text>心率 {{ item.health.heartRate }}</text>
+          </view>
+          
+          <!-- 血氧 -->
+          <view class="index__list__item__info__health__item">
+            <image src="../../assets/index-info-bloodOxygen.png" />
+            <text>血氧 {{ item.health.bloodOxygen }}</text>
+          </view>
+          
+          <!-- 血压 -->
+          <view class="index__list__item__info__health__item">
+            <image src="../../assets/index-info-pressure.png" />
+            <text>血压 {{ item.health.pressure }}</text>
+          </view>
+        </view>
+      </view>
+      
+      <!-- 在线状态 -->
+      <view class="{{ `index__list__item__status ${item.online ? 'online' : 'offline'}` }}" />
+    </view>
+  </view>
+</view>

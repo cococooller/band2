@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/map/map"
+  ],
+  "window": {
+    "defaultTitle": "管理中心"
+  },
+  "tabBar": {
+    "textColor": "#707070",
+    "selectedColor": "#108ee9",
+    "backgroundColor": "#F5F5F9",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "icon": "https://gw.alipayobjects.com/mdn/rms_eb2664/afts/img/A*jM1JS6cOamQAAAAAAAAAAABkARQnAQ",
+        "activeIcon": "https://gw.alipayobjects.com/mdn/rms_eb2664/afts/img/A*lReQSZWqCksAAAAAAAAAAABkARQnAQ",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/detail/detail",
+        "icon": "https://gw.alipayobjects.com/mdn/rms_eb2664/afts/img/A*sKhCSL8n_0oAAAAAAAAAAABkARQnAQ",
+        "activeIcon": "https://gw.alipayobjects.com/mdn/rms_eb2664/afts/img/A*9HD1RbUJs-AAAAAAAAAAAABkARQnAQ",
+        "name": "详情"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "icon": "https://gw.alipayobjects.com/mdn/rms_eb2664/afts/img/A*sKhCSL8n_0oAAAAAAAAAAABkARQnAQ",
+        "activeIcon": "https://gw.alipayobjects.com/mdn/rms_eb2664/afts/img/A*9HD1RbUJs-AAAAAAAAAAAABkARQnAQ",
+        "name": "地图"
+      }
+    ]
+  }
+}

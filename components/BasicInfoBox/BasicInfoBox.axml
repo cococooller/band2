@@ -1,0 +1,19 @@
+<view class="basic-info-box">
+  <view class="basic-info-box__icon">
+    <image class="basic-info-box__icon-image" src="{{ icon }}" />
+  </view>
+  
+  <view class="basic-info-box__info">
+    <text class="basic-info-box-info__name">
+      {{ name }}
+    </text>
+    
+    <text class="basic-info-box-info__name">
+      {{ name }}
+    </text>
+    
+    <text class="basic-info-box-info__value">
+      adsf | asf | asdf |
+    </text>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<view class="state-box">
+  <view class="state-box__icon">
+    <image class="state-box__icon-image" src="{{ icon }}" />
+  </view>
+  
+  <view class="state-box__info">
+    <text class="state-box__info__data">
+      {{ data }}
+    </text>
+    <text class="state-box-info__name">
+      {{ name }}
+    </text>
+  </view>
+</view>

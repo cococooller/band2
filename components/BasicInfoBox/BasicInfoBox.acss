@@ -5,5 +5,70 @@
   border: 4rpx solid #f0f0f0;
   border-radius: 15rpx;
   box-shadow: 5rpx 5rpx 15rpx #f0f0f0;
+  background-color: #fff;
   overflow: hidden;
+}
+
+.basic-info-box__icon {
+  margin: 50rpx;
+  float: left;
+  overflow: hidden;
+}
+
+.basic-info-box__icon-image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.basic-info-box__info {
+  float: left;
+  overflow: hidden;
+  height: 100%;
+  font-size: 0;
+}
+
+.basic-info-box__info__name {
+  display: inline-block;
+  padding: 40rpx 0;
+  font-size: 36rpx;
+  font-weight: 700;
+  color: #333;
+  width: 140rpx;
+}
+
+.basic-info-box__info__physiology {
+  display: inline-block;
+  padding: 50rpx 0;
+}
+
+.basic-info-box__info__physiology__gender,
+.basic-info-box__info__physiology__age  {
+  font-size: 20rpx;
+  color: #666;
+  margin-right: 30rpx;
+}
+
+.basic-info-box__info__class {
+  display: block;
+}
+
+.basic-info-box__info__class__belong,
+.basic-info-box__info__class__number {
+  font-size: 24rpx;
+  color: #666;
+  margin-right: 30rpx;
+}
+
+.basic-info-box__info__status {
+  float: right;
+  height: 100%;
+  width: 10rpx;
+}
+
+.basic-info-box__info__status.online {
+  background: #19ab54;
+}
+
+.basic-info-box__info__status.offline {
+  background: red;
 }

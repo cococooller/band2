@@ -7,8 +7,11 @@
     <text class="state-box__info__data">
       {{ data }}
     </text>
-    <text class="state-box-info__name">
+    <text class="state-box__info__name">
       {{ name }}
+    </text>
+    <text class="state-box__info__time">
+      {{ time }} 上报
     </text>
   </view>
 </view>

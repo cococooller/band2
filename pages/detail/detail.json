@@ -1,6 +1,7 @@
 {
   "defaultTitle": "学生详情",
   "usingComponents": {
+    "i-button": "iview-aliapp/dist/dist/button/index",
     "basic-info-box": "../../components/BasicInfoBox/BasicInfoBox",
     "state-box": "../../components/StateBox/StateBox",
     "chart-box": "../../components/ChartBox/ChartBox"

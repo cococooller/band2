@@ -1,0 +1,7 @@
+.chartbox {
+  border: 4rpx solid #f0f0f0;
+  border-radius: 15rpx;
+  box-shadow: 5rpx 5rpx 15rpx #f0f0f0;
+  background-color: #ffffff;
+  overflow: hidden;
+}

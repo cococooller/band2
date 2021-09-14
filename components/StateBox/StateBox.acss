@@ -6,6 +6,35 @@
   border: 4rpx solid #f0f0f0;
   border-radius: 15rpx;
   box-shadow: 5rpx 5rpx 15rpx #f0f0f0;
-  background-color: #fff;
+  background-color: #ffffff;
   overflow: hidden;
+}
+
+.state-box__icon {
+  float: left;
+  margin: 50rpx 15rpx;
+}
+
+.state-box__icon-image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.state-box__info {
+  float: left;
+}
+
+.state-box__info__data {
+  display: block;
+  margin-top: 60rpx;
+  font-weight: 700;
+  font-size: 40rpx;
+  color: #111;
+}
+.state-box__info__name {
+  margin-right: 10rpx;
+}
+.state-box__info__name, .state-box__info__time {
+  font-size: 20rpx;
+  color: #666;
 }

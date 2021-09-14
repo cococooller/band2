@@ -4,16 +4,32 @@
   </view>
   
   <view class="basic-info-box__info">
-    <text class="basic-info-box-info__name">
+    <text class="basic-info-box__info__name">
       {{ name }}
     </text>
     
-    <text class="basic-info-box-info__name">
-      {{ name }}
-    </text>
+    <view class="basic-info-box__info__physiology">
+      <text class="basic-info-box__info__physiology__gender">
+        {{ gender }}
+        
+      </text>
+      <text class="basic-info-box__info__physiology__age">
+        {{ age }}
+        
+      </text>
+    </view>
     
-    <text class="basic-info-box-info__value">
-      adsf | asf | asdf |
-    </text>
+    <view class="basic-info-box__info__class">
+      <text class="basic-info-box__info__class__belong">
+        {{ klass }}
+      </text>
+      
+      <text class="basic-info-box__info__class__number">
+        {{ number }}
+      </text>
+    </view>
+    
   </view>
+  
+  <view class="{{ `basic-info-box__info__status ${online ? 'online' : 'offline'}` }}" />
 </view>

@@ -1,6 +1,7 @@
 .detail {
   width: 680rpx;
   margin: 0 auto;
+  padding-top: 24rpx;
 }
 
 .detail__state {

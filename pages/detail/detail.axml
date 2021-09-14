@@ -4,19 +4,20 @@
   </view>
   
   <view class="detail__state">
-    <state-box />
+    <state-box icon="../../assets/detail-heart.png" data="120/分" name="心率" time="13:56" />
     
-    <state-box />
+    <state-box icon="../../assets/detail-o2.png" data="120mm" name="血氧" time="10:56" />
     
-    <state-box />
+    <state-box icon="../../assets/detail-pressure-high.png" data="140" name="舒张压" time="11:56" />
     
-    <state-box />
+    <state-box icon="../../assets/detail-pressure-low.png" data="80" name="收缩压" time="14:56" />
+    
   </view>
   
   <view class="detail__chart">
     <chart-box />
   </view>
-  <view class="detail__call" onTap="call">
-    紧急呼叫
-  </view>
+  
+  <i-button onClick="handleClick" type="error">紧急呼叫</i-button>
+  
 </view>

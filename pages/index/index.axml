@@ -16,7 +16,7 @@
             {{ item.name }}
           </text>
           <text class="index__list__item__info__basic__others">
-            {{ item.gender }} |
+            {{ item.gender }} | {{ item.age }} | {{ item.class }}
           </text>
         </view>
         

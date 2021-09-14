@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "i-button": "iview-aliapp/dist/dist/button/index"
+  },
+  "defaultTitle": "位置信息"
 }

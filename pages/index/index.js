@@ -8,6 +8,7 @@ Page({
         id: '1',
         class: '高二三班',
         gender: '男',
+        age: '19岁',
         online: true,
         health: {
           heartRate: '60',
@@ -19,6 +20,7 @@ Page({
         name: 'xk',
         class: '高二三班',
         gender: '女',
+        age: '19岁',
         online: false,
         health: {
           heartRate: '60',
@@ -27,9 +29,10 @@ Page({
         }
       },
       {
-        name: '王力宏',
+        name: 'xjp',
         class: '高二三班',
         gender: '男',
+        age: '19岁',
         online: true,
         health: {
           heartRate: '60',
@@ -37,17 +40,6 @@ Page({
           pressure: '80/190'
         }
       },
-      // {
-      //   name: 'xk',
-      //   class: '高二三班',
-      //   gender: '女',
-      //   online: false,
-      //   health: {
-      //     heartRate: '60',
-      //     bloodOxygen: '60',
-      //     pressure: '80/190'
-      //   }
-      // }
     ]
   },
   onLoad(query) {
